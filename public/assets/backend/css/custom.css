@@ -1,0 +1,43 @@
+/*Dashboard Logo Size is Set here */
+.dashboard_logo {
+    width: 100%;
+}
+
+
+.footer_menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.menu_bx {
+    padding: 0.5rem;
+    transition: 0.5s ease;
+}
+
+.menu_bx:hover {
+    color: rgb(240, 35, 138) !important;
+    text-decoration: none;
+    background-color: #ddd;
+    padding: 0.55rem;
+    border-radius: 5px;
+}
+
+.user-badge {
+    padding: 2px 3px;
+    margin: 2px 8px;
+    animation: animate 0.5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background: rgb(161, 255, 65);
+        background: linear-gradient(90deg, rgba(161, 255, 65, 1) 0%, rgba(40, 152, 64, 1) 100%);
+    }
+
+    100% {
+        background: rgb(161, 255, 65);
+        background: linear-gradient(180deg, rgba(161, 255, 65, 1) 0%, rgba(40, 152, 64, 1) 100%);
+    }
+}
